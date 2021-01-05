@@ -10,7 +10,7 @@ CAP_PLUGIN(CapacitorGoogleMaps, "CapacitorGoogleMaps",
            CAP_PLUGIN_METHOD(setMapType, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(isIndoorEnabled, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(accessibilityElementsHidden, CAPPluginReturnPromise);
-           CAP_PLUGIN_METHOD(isMyLocationEnabled, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(enableCurrentLocation, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(padding, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(clear, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(isTrafficEnabled, CAPPluginReturnPromise);
